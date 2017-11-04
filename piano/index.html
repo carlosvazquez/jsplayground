@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Piano keyboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="full"><h1>Piano Keys</h1></div>
+      </div>
+      <div class="container keyboard">
+        <ul class="keyboard__list">
+          <li data-key="65" class="key"><kbd>A</kbd></li>
+          <li data-key="83" class="key"><kbd>S</kbd></li>
+          <li data-key="68" class="key"><kbd>D</kbd></li>
+          <li data-key="70" class="key"><kbd>F</kbd></li>
+          <li data-key="71" class="key"><kbd>G</kbd></li>
+          <li data-key="72" class="key"><kbd>H</kbd></li>
+        </ul>
+      </div>
+      <audio data-key="65" src="audios/sound01.wav"></audio>
+      <audio data-key="83" src="audios/sound02.wav"></audio>
+      <audio data-key="68" src="audios/sound03.wav"></audio>
+      <audio data-key="70" src="audios/sound01.wav"></audio>
+      <audio data-key="71" src="audios/sound02.wav"></audio>
+      <audio data-key="72" src="audios/sound03.wav"></audio>
+      <script src="js/app.js"></script>
+    </body>
+</html>

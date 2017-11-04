@@ -1,0 +1,50 @@
+.container {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container .full {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+.container .full h1 {
+  text-align: center;
+  color: #777777;
+}
+.container.keyboard {
+  background-color: pink;
+}
+.keyboard .keyboard__list {
+  list-style: none;
+  padding: 0;
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.keyboard .keyboard__list .key {
+  text-align: center;
+  border-radius: 4px;
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+  transform: scale(1);
+  padding: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: #f4f4f4;
+  border: 2px solid #cccccc;
+  transition: transform .07s ease;
+  display: inline-block;
+}
+.keyboard .keyboard__list .key:hover, .keyboard .keyboard__list .key.clicked {
+  border-color: purple;
+  transform: scale(1.000001);
+  transition: transform .07s ease;
+  cursor: pointer;
+}
